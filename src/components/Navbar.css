@@ -1,0 +1,90 @@
+/* Navbar.css */
+
+.navbar-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar is on top */
+}
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+    height: 10%;
+}
+.resbtn{
+    height: 50%;
+    margin-top: 12%;
+}
+.navbar {
+    background: rgba(255, 255, 255, 0.8) !important; 
+    backdrop-filter: blur(5px) !important; 
+    border: none; 
+}
+
+/* Adjust the color and transition effects for nav links */
+.navbar-nav .nav-link {
+    color: #333 !important; /* Default text color */
+    transition: color 0.3s ease;
+}
+
+/* Active link color change */
+.navbar-nav .nav-link.active {
+    color: black !important; /* Color for active link */
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9) !important;
+    /* margin-left: 2% !important; */
+}
+
+/* Ensure logo maintains its appearance */
+.navbar-brand .logo {
+    max-height: 50px; 
+    transition: filter 0.3s ease; 
+}
+
+/* Inverted logo color */
+.navbar-brand .logo.logo-inverted {
+    filter: invert(1) !important; /* Invert colors */
+}
+
+.btn-primary {
+    margin-top: 15px !important; /* Adjust margin as needed */
+}
+.navbar-nav .nav-link.active-about {
+    color: black !important; /* Text color for About section */
+  }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.7) !important; /* Semi-transparent background for mobile menu */
+        text-align: center; /* Center the elements */
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .btn-primary.resbtn {
+        width: 100%; /* Ensure the button does not expand */
+        margin-top: 10px;
+        text-align: center; /* Center the button */
+    }
+
+    .blur-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(10px); /* Adjust blur effect */
+        z-index: 999; /* Ensure blur effect is below navbar but above content */
+    }
+}
