@@ -9,14 +9,14 @@ function Hero() {
   useEffect(() => {
     const carouselElement = document.querySelector('#carouselExampleAutoplaying');
     if (carouselElement) {
-      const carousel = new Carousel(carouselElement, {
+      new Carousel(carouselElement, {
         interval: 4000,
       });
     }
   }, []);
 
   return (
-    <section className="home">
+    <section id="home" className="home">
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide"

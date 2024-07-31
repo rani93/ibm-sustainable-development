@@ -2,7 +2,7 @@ import React from 'react';
 
 function Process() {
     return (
-      <section className="process">
+      <section className="process" id="process">
 
   <div className="container-xxl py-5">
     <div className="container">
