@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavbarComponent from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';  
-// import Events from './pages/Events';  
+import EventList from './pages/Eventlist';  
 // import Blog from './pages/Blog';      
 import './assets/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,7 +16,7 @@ function App() {
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/events" element={<Events />} />      */}
+        <Route path="/events" element={<EventList />} />     
         {/* <Route path="/blog" element={<Blog />} />          */}
       </Routes>
       <Footer />
