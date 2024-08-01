@@ -1,8 +1,6 @@
 import EventCard from './EventCard'
 import React, { useState, useEffect } from 'react';
 import './EventCard.css';
-import NavbarComponent from '../components/Navbar';
-import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEarth } from '@fortawesome/free-solid-svg-icons';
 
