@@ -144,9 +144,10 @@ function Footer() {
           <a className="" href="#">
             Plant
           </a>
-          , All Right Reserved. Designed By
+          , All Right Reserved. Designed By 
+          <a>: </a>
           <a className="" href="">
-            Team Tech HelloWorld3.0
+            HelloWorld3.0
           </a>
         </div>
         <div className="col-md-6 text-center text-md-end">
