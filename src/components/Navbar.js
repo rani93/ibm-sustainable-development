@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import logo from '../assets/plantimages/logo.png';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../assets/plantimages/logo.png';
 import './Navbar.css';
 
 function NavbarComponent() {
