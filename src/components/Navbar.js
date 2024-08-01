@@ -56,9 +56,10 @@ function NavbarComponent() {
       });
     }
   };
+  //bg = light
 
   return (
-    <Navbar className="navbar-container" fixed="top" expand="lg" bg="light" variant="light">
+    <Navbar className="navbar-container" fixed="top" expand="lg" bg="dark" variant="light">
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img src={logo} alt="Logo" className={`logo ${logoInverted ? 'logo-inverted' : ''}`} />
