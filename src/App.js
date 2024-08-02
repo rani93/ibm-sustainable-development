@@ -4,7 +4,7 @@ import NavbarComponent from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';  
 import EventList from './pages/Eventlist';  
-// import Blog from './pages/Blog';      
+ import BlogPage from './pages/BlogPage';     
 import './assets/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<EventList />} />     
-        {/* <Route path="/blog" element={<Blog />} />          */}
+         <Route path="/blog" element={<BlogPage />} />          
       </Routes>
       <Footer />
     </Router>
