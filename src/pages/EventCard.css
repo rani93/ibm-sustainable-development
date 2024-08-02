@@ -123,6 +123,9 @@ border-radius: 5px;
 cursor: pointer;
 transition: background-color 0.3s;
 }
+.registered:hover{
+    background-color: rgb(231, 1, 1);
+}
 /* img:hover{
     scale: 1.2;
 } */
